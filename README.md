@@ -1,13 +1,13 @@
 # cifrotech-php
 
 
-PHP скрипт для импорта стока Cifrotech
+PHP СЃРєСЂРёРїС‚ РґР»СЏ РёРјРїРѕСЂС‚Р° СЃС‚РѕРєР° Cifrotech
 http://b2b.cifrotech.ua/api/rest/getstock
 
-В скрипте прописать 4 параметра
+Р’ СЃРєСЂРёРїС‚Рµ РїСЂРѕРїРёСЃР°С‚СЊ 4 РїР°СЂР°РјРµС‚СЂР°
 
 $consumerKey
 $consumerSecret
 $authToken
-$authSecret
+$authSecret 
 
