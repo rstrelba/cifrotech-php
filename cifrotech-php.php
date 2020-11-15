@@ -13,7 +13,7 @@ do {
     $curl = curl_init();
 
     $ts = time();
-    $nonce = sha1($ts);
+    $nonce = sha1($ts. rand());
     $baseUrl = "http://b2b.cifrotech.ua/api/rest/getstock";
     $queryUrl = "?limit=$limit&page=$page";
     $base = 'GET' . '&' . rawurlencode($baseUrl) . '&'
